@@ -1,0 +1,46 @@
+.mobile_menu_icon {
+    display: none;
+}
+
+/* Medium ≥768px Tablet Display */
+@media (max-width: 767px) {
+
+    .bussiness {
+        background: #f5f8f9;
+        padding: 14px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        top: -96px;
+        width: 78%;
+        right: 51px;
+    }
+    .right .app_btn{
+        padding: 6px 15px;
+        font-size: 0.58em;
+        }
+        
+    .hero_content h1{
+        font-size: 3em;
+    }
+
+}
+/* Small ≥576px Mobile Display */
+@media (max-width: 575px) {
+    .bussies_item{
+        display: flex;
+        flex-direction: column;
+    }
+        .top_call{
+        font-size: 16px;
+    }
+    .top_number{
+        font-size: 0.9em;
+    }
+    .header_mail{
+        font-size: 0.67em;
+    }
+}
